@@ -1,5 +1,3 @@
-// src/data.js
-// All dummy data stored here for reuse
 export const NAV = [
     { label: 'Categories', href: '#' },
     { label: 'Udemy Business', href: '#' },

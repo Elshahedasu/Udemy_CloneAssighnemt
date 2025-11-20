@@ -6,7 +6,7 @@ export default function AICareerSection() {
     <section className="ai-career-section">
       <div className="ai-career-card">
 
-        {/* Left Text Area */}
+      
         <div className="ai-left">
           <h2>Reimagine your career in the<br />AI era</h2>
 

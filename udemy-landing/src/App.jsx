@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import Categories from './components/Categories';
 import PopularCourses from './components/PopularCourses';
-import PromoBanner from './components/PromoBanner';   // <-- FIXED
+import PromoBanner from './components/PromoBanner';   
 import TrustedCompanies from './components/TrustedCompanies';
 import CareerSection from './components/CareerSection';
 import AICareerSection from "./components/AICareerSection";
@@ -15,11 +15,10 @@ export default function App() {
     <div>
       <Header />
       <main>
-        <PromoBanner />        {/* <-- Promo goes first like Udemy */}
+        <PromoBanner />        
         <CareerSection />
         <AICareerSection /> 
         <SkillsSection />
-
         <TrustedCompanies />
       </main>
       <footer style={{ padding: '24px', textAlign: 'center', color: '#777' }}>
